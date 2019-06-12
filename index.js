@@ -1,5 +1,6 @@
 // Import stylesheets
 import './style.css';
+import 'ol/ol.css'
 import Map from 'ol/Map.js';
 import View from 'ol/View.js';
 import { Tile as TileLayer, Vector as VectorLayer, } from 'ol/layer.js';
@@ -75,3 +76,4 @@ setInterval(function () {
   offset = offset == 8 ? 0 : offset+1;
   featureLine.set('dashOffset', offset);
 }, 100);
+
