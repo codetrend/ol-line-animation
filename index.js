@@ -1,4 +1,3 @@
-// Import stylesheets
 import './style.css';
 import 'ol/ol.css'
 import Map from 'ol/Map.js';
